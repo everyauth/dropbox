@@ -1,0 +1,35 @@
+{
+  "name": "everyauth-dropbox-example",
+  "version": "0.0.0",
+  "description": "Example for everyauth-dropbox",
+  "main": "index.js",
+  "dependencies": {
+    "everyauth": "0.5.x",
+    "everyauth-dropbox": "0.0.x",
+    "express": "4.x",
+    "serve-favicon": "*",
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "express-session": "*",
+    "jade": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/everyauth/dropbox"
+  },
+  "keywords": [
+    "everyauth",
+    "dropbox",
+    "oauth2",
+    "auth"
+  ],
+  "author": "Brian N Noguchi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/everyauth/dropbox/issues"
+  },
+  "homepage": "https://github.com/everyauth/dropbox"
+}

@@ -1,0 +1,12 @@
+- if (!everyauth.loggedIn)
+  h2 Not Authenticated
+  #dropbox-login
+    a.dropbox(href='/auth/dropbox')
+      span#dropbox_login_text Login with Dropbox
+- else
+  h2 Authenticated
+  - if (everyauth.dropbox)
+    h3 Dropbox User Data
+    p= JSON.stringify(everyauth.dropbox.user)
+  h3
+    a(href='/logout') Logout
